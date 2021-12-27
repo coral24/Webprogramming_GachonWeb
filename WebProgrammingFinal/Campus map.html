@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Yeon+Sung&display=swap&subset=korean" rel="stylesheet">
+<meta charset="utf-8">
+<title> Campus Map </title>
+<style>
+	* {margin:0px;
+	   font-family:'Do Hyeon';}
+	h2 {width:994px;
+		margin:0px;
+		text-align:center;
+		color:#ffffff;
+		background-color:#004d97;
+		font-size:50px;
+		font-family:'Do Hyeon';
+		position:relative;
+		vertical-align:middle;
+		top:190px;
+		left:210px;}
+	ul {background-position:right;}
+	p {margin:5px;
+	   font-family:Arial;
+	   color:white;}
+	body.img
+	{border-width:10px;
+		 border-color:#004d97;}
+	body a:link {text-decoration:none;
+			font-family:'Do Hyeon'; 
+			color:white;}
+	body a:visited {text-decoration:none;
+			   font-family:'Do Hyeon';
+			   color:white;}
+	body a:hover {text-decoration:none;
+			 font-family:'Do Hyeon';
+			 color:white;}
+	#c1 {border:solid 1px color:black;}
+	#c2 {border:solid 1px color:black;
+		 position:relative;
+		 top:-1000px;
+		 left:210px;}
+	#c3 {border:solid 1px color:black;
+		 position:relative;
+		 top:-1580px;
+		 left:210px;}
+	#c4 {border:solid 1px color:black;
+		 position:relative;
+		 top:-1005px;
+		 left:210px;}
+	#a1 {list-style-image:url("list style a.png");
+		 margin:50px;
+		 padding-top:0px;
+		 color:white;
+		 width:200px;
+		 height:58px;
+		 border-radius:50px;
+		 text-align:center;
+		 font-family:'Do Hyeon';
+		 font-size:26px;
+		 background-color:#87c871;
+		 position:relative;
+		 top:-1750px;
+		 left:1200px;
+		 display:table cell;
+		 vertical-align:middle;}
+	#a2 {list-style-image:url("list style b.png");
+		 margin:50px;
+		 padding-top:0px;
+		 color:white;
+		 width:200px;
+		 height:58px;
+		 border-radius:50px;
+		 text-align:center;
+		 font-family:'Do Hyeon';
+		 font-size:26px;
+		 background-color:#87c871;
+		 position:relative;
+		 top:-1750px;
+		 left:1200px;
+		 display:table cell;
+		 vertical-align:middle;}
+	#a3 {list-style-image:url("list style c.png");
+		 margin:50px;
+		 padding-top:0px;
+		 color:white;
+		 width:200px;
+		 height:58px;
+		 border-radius:50px;
+		 text-align:center;
+		 font-family:'Do Hyeon';
+		 font-size:26px;
+		 background-color:#87c871;
+		 position:relative;
+		 top:-1750px;
+		 left:1200px;
+		 display:table cell;
+		 vertical-align:middle;}
+	#a4 {list-style-image:url("list style d.png");
+		 margin:50px;
+		 padding-top:0px;
+		 color:white;
+		 width:200px;
+		 height:58px;
+		 border-radius:50px;
+		 text-align:center;
+		 font-family:'Do Hyeon';
+		 font-size:26px;
+		 background-color:#87c871;
+		 position:relative;
+		 top:-1750px;
+		 left:1200px;
+		 display:table cell;
+		 vertical-align:middle;}
+	#a5 {list-style-image:url("list style e.png");
+		 margin:50px;
+		 padding-top:0px;
+		 color:white;
+		 width:200px;
+		 height:58px;
+		 border-radius:50px;
+		 text-align:center;
+		 font-family:'Do Hyeon';
+		 font-size:26px;
+		 background-color:#87c871;
+		 position:relative;
+		 top:-1750px;
+		 left:1200px;
+		 display:table cell;
+		 vertical-align:middle;}
+	footer {position:relative;
+			top:-1530px;
+			left:210px;
+			text-color:black;}
+	nav {position:absolute;
+		 top:148px;
+		 left:2px;}
+	#d1 {list-style-type:none;
+		 margin:47px;
+		 font-size:30px;
+		 font-family:'Do Hyeon';
+		 font-color:black;
+		 padding
+		 }
+	#d2 {list-style-type:none;
+		 margin:47px;
+		 font-size:30px;
+		 font-family:'Do Hyeon';
+		 font-color:black;}
+	#d3 {list-style-type:none;
+		 margin:42px;
+		 font-size:30px;
+		 font-family:'Do Hyeon';
+		 font-color:black;}
+	#d4 {list-style-type:none;
+		 margin:42px;
+		 font-size:30px;
+		 font-family:'Do Hyeon';
+		 font-color:black;
+		 position:relative;
+		 top:-2px;
+		 left:2px;}
+	#tab a:link {text-decoration:none;
+			font-family:'Do Hyeon'; 
+			color:black;}
+	#tab a:visited {text-decoration:none;
+			   font-family:'Do Hyeon';
+			   color:black;}
+	#tab a:hover {text-decoration:none;
+			 font-family:'Do Hyeon';
+			 color:black;}
+</style>
+</head>
+<body>
+	<h2> 가천대학교 VR 360도 버전 캠퍼스맵 </h2>
+	<img src="background.png" width="1800" height="1200" id="c1">
+	<img src="캠퍼스맵.png" width="1000" height="700" id="c2">
+	<img src="가천대 로고2.jpg" width="300" height="120" id="c3">
+	<img src="캠퍼스맵2.png" width="1007" height="200" id="c4">
+			<ul>
+				<li id="a1">
+					<p><a href="https://www.youtube.com/watch?v=WiK_V4h5cIs&feature=youtu.be" target="blank">대운동장(VR)</a></p> 
+				</li>
+				<li id="a2"> 
+					<p><a href="https://www.youtube.com/watch?v=Ro4Zujujlv8" target="blank">스타덤광장(VR)</a></p> 
+				</li>
+				<li id="a3"> 
+					<p><a href="https://www.youtube.com/watch?v=70K9zaxYfs4&feature=youtu.be" target="blank">프리덤광장(VR)</a></p>
+				</li>
+				<li id="a4"> 
+					<p><a href="https://www.youtube.com/watch?v=JkDdUBQpe8w" target="blank">바람개비동산(VR)</a></p> 
+				</li>
+				<li id="a5"> 
+					<p><a href="https://www.youtube.com/watch?v=WiK_V4h5cIs&feature=youtu.be" target="blank">잔디광장(VR)</a></p>
+				</li>
+			</ul>
+		<div id="tab">
+			<nav>
+				<ul>
+					<li id="d1"><a href="가천대학생활백서.html">Home</a></li>
+					<li id="d2"><a href="Campus map.html">Map</a></li>
+					<li id="d3"><a href="IntroduceMain.html">Service</a></li>
+					<li id="d4"><a href="TMI PAGE.html">TMI</a></li>
+				</ul>
+			</nav>
+		</div>
+<footer>
+	<h4> Copyright (c) 배경이미지:http://pptbizcam.co.kr/?p=4554 캠퍼스맵 이미지:http://www.gachon.ac.kr/introduce/campus/campus_g.html</h4>
+</footer>
+</body>
+</html>

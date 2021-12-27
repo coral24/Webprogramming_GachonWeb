@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Yeon+Sung&display=swap&subset=korean" 
+	rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script|Noto+Serif+KR&display=swap" 
+	rel="stylesheet">
+	<meta charset "utf-8">
+	<title> MoodangTimeTable </title>
+	<style>	
+	
+	body {
+		background-image : url("Background.png");
+		background-repeat : no-repeat;
+		background-position : 150px 15px;
+	}
+	
+	#body {
+		width : 1250px;
+		height : 675px;
+		margin : 60px auto 60px auto;
+	}
+	
+	#header {
+		padding-left : 20px;
+		position : relative;
+		left : 120px;
+		width : 900px;
+	}
+	
+	#section {
+		height : 530px;
+	}
+	
+	.aside {
+		position : relative;
+		bottom : 90px;
+		float : left;
+		width : 110px;
+		height : 205px;
+	}
+	
+	.article1 {
+		margin-left : 10px;
+		float : left;
+		width : 330px;
+		height : 530px;
+	}
+	
+	.article2 {
+		margin-left : 10px;
+		padding-left : 10px;
+		float : left;
+		width : 690px;
+		height : 530px;
+	}
+	
+	.clear { clear : left; }
+	
+	#footer {
+		margin : 20px 70px 0px 110px;
+	}
+	
+	ul {
+		margin-top : 27px;
+		margin-right : 25px;
+	}
+	
+	a:link { 
+		color : black;
+		text-decoration : none;
+	}
+	
+	a:hover {
+		color : black;
+	}
+	
+	a:active {
+		color : black;
+	}
+	
+	a:visited {
+		color : black;
+	}
+	
+	#a1 {
+		margin-top : 10px;
+		margin-bottom : 23px;
+		font-family : 'Do Hyeon', sans-serif;
+		font-size : 22px;
+		list-style-type : none;
+	}
+	
+	#a2 {
+		margin-bottom : 20px;
+		font-family : 'Do Hyeon', sans-serif;
+		font-size : 22px;
+		list-style-type : none;
+	}
+	
+	#a3 {
+		margin-right : 10px;
+		margin-bottom : 18px;
+		font-family : 'Do Hyeon', sans-serif;
+		font-size : 22px;
+		list-style-type : none;
+	}
+	
+	#a4 {
+		font-family : 'Do Hyeon', sans-serif;
+		font-size : 22px;
+		list-style-type : none;
+	}
+	
+	#b1 {
+		margin-top : 5px;
+		margin-bottom : 0px;
+		width : 700px;
+		font-family : 'Do Hyeon', sans-serif;
+		font-size : 40px;
+		color : #ff4040;
+	}
+	
+	#b2 {
+		margin-top : 5px;
+		margin-bottom : 0px;
+		font-family : 'Nanum Pen Script', cursive;
+		font-size : 27px;
+	}
+	
+	#d1 {
+		font-family : 'Nanum Pen Script', cursive;
+		font-size : 33px;
+	}
+	
+	#e1 {
+		font-family : 'Do Hyeon', sans-serif;
+		font-size : 13px;
+		color : white;
+		text-align : center;
+	}
+	
+	.Upward {
+		float : left;
+		padding-right : 22px;
+	}
+	</style>
+</head>
+<body>
+<div id = "body">
+	<div id = "header">
+		<h1 id = "b1"> 무당이 TimeTable </h1>
+		<p id = "b2"> 무당이는 정문 -> 기숙사행, 정문 -> 교육대학원행 두가지가 있습니다. </p>
+	</div>
+	<div id = "section">
+		<div class = "aside">
+			<nav>
+				<ul>
+					<li id = "a1"><a href = "#"> Home </a></li>
+					<li id = "a2"><a href = "#"> Map </a></li>
+					<li id = "a3"><a href = "IntroduceMain.html"> Service </a></li>
+					<li id = "a4"><a href = "#"> TMI </a></li>
+				</ul>
+			</nav>
+		</div>
+		
+		<div class = "article1">
+			<img id = "c1" src = "timetable.jpg" width = "330px" height = "530px">
+		</div>
+		<div class = "article2">
+			<p id = "d1"> <상행> : IT융합대 -> 교육대학원 -> 학생회관 -> 기숙사 </p>
+			<div class = "Upward"> <img src = "IT.jpg" width = "150px" height = "120px"> </div>
+			<div class = "Upward"> <img src = "edu.jpg" width = "150px" height = "120px"> </div>
+			<div class = "Upward"> <img src = "std.jpg" width = "150px" height = "120px"> </div>
+			<div class = "Upward"> <img src = "dormitory.jpg" width = "150px" height = "120px"> </div>
+			<div class = "clear"></div>
+			<img src = "RoadFinal.png" width = "680px" height = "20px">
+			<p id = "d1"> <하행> : 기숙사 -> 교육대학원 -> 글로벌센터 -> IT융합대 </p>
+			<div class = "Upward"> <img src = "IT.jpg" width = "150px" height = "120px"> </div>
+			<div class = "Upward"> <img src = "edu2.jpg" width = "150px" height = "120px"> </div>
+			<div class = "Upward"> <img src = "globalcenter.jpg" width = "150px" height = "120px"> </div>
+			<div class = "Upward"> <img src = "IT.jpg" width = "150px" height = "120px"> </div>
+			<div class = "clear"></div>
+			<img src = "RoadFinal.png" width = "680px" height = "20px">
+		</div>
+	</div>
+	
+	<div class = "clear"></div>
+	
+	<div id = "footer"> 
+		<p id = "e1"> Copyright ⓒ 도로 : href=https://kor.pngtree.com>pngtree.com의 그래픽 <br>
+					  background : http://pptbizcam.co.kr/?p=4554 </p>
+	</div>
+</div>
+</body>
+</html>
